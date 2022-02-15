@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Pacifico&display=swap');
+
+:root {
+    /* Fonts */
+    --open-sans-font: 'Open Sans', sans-serif;
+    --pacifico-font: 'Pacifico', sans-serif;
+}
+
+/* Escritorio XL (1366px en adelante) */
+* {
+    font-family: var(--open-sans-font);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+header .logotipo {
+width: 45%;
+}
+
+/* Tablet horizontal LG (1024px) */
+@media (max-width: 1199px) and (min-width: 992px) {}
+
+/* Tablet vertical MD (768px) */
+@media (max-width: 991px) and (min-width: 768px) {}
+
+/* Movil horizontal SM (576px) */
+@media (max-width: 767px) and (min-width: 320px) {}
+
+/* Movil vertical 320px */
+@media (max-width: 319px) {}
